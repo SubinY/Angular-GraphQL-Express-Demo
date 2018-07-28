@@ -16,10 +16,6 @@ npm run app-install
 
 copy `.env.example` to `.env`, edit database info, etc.
 
-```shell
-npm install
-```
-
 ## Configure Database
 
 Create a table called `users` including two fields `_id` and `username`
@@ -44,4 +40,8 @@ cd server && npm run start
 ```
 
 Open `localhost:3000`
+
+### For more infomation
+
+[https://github.com/Xilesun/imqia](https://github.com/Xilesun/imqia)
 
