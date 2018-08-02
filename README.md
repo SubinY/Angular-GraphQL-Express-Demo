@@ -1,5 +1,7 @@
 # Angular-GraphQL-Express-Demo
 
+Fork for make a quick share demo
+
 ## Dependencies
 Angular
 Express
@@ -40,6 +42,41 @@ cd server && npm run start
 ```
 
 Open `localhost:3000`
+
+
+### GraphiQL query page
+
+Open `localhost:3000/graphiql`
+
+test:
+
+```graphiql
+
+### 查询用户
+query {
+  users{
+    id
+    username
+  }
+}
+
+### 新增用户
+# mutation{
+#   createUser(username:"test"){
+#     id,
+#     username
+#   }
+# }
+
+### 更新用户
+# mutation{
+#   updateUser(id:"5b62b95e530ec2571455773b",username:"giscafer"){
+#     id,
+#     username
+#   }
+# }
+
+```
 
 ### For more infomation
 

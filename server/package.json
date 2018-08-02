@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "lint": "tslint --project tsconfig.json",
-        "start": "npm run build:live",
+        "ts-node": "ts-node -- ./src/index.ts",
+        "start": "node ./node_modules/ts-node/dist/bin.js -- ./src/index.ts",
         "build": "tsc",
         "build:live": "pm2 start ts-node -- ./src/index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"

@@ -15,6 +15,7 @@ const dbURL = process.env.MONGODB_URI_LOCAL;
 const app = express();
 
 // Connect to database
+console.log(dbURL)
 const db = mongoose(dbURL);
 
 // Parsers

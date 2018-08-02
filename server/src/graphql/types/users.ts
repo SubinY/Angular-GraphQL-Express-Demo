@@ -5,6 +5,7 @@ export default `type Query {
 
                 type Mutation {
                   updateUser(id: ID!, username: String!): User
+                  createUser(username:String!):User
                 }
 
                 type User {
