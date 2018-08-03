@@ -76,6 +76,35 @@ query {
 #   }
 # }
 
+
+### 别名
+# {
+#   userOne: user(id: "5b62b95e530ec2571455773b") {
+#     id,
+#     username
+#   }
+#   userTwo: user(id: "5b62b961530ec2571455773c") {
+#     id,
+#     username
+#   }
+# }
+
+
+### 片段
+# {
+#   leftComparison: user(id: "5b62b95e530ec2571455773b") {
+#     ...comparisonFields
+#   }
+#   rightComparison: user(id: "5b62b961530ec2571455773c") {
+#     ...comparisonFields
+#   }
+# }
+
+# fragment comparisonFields on User {
+#   id
+#   username
+# }
+
 ```
 
 ### For more infomation
