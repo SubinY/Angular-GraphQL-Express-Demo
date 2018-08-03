@@ -50,7 +50,7 @@ Open `localhost:3000/graphiql`
 
 test:
 
-```graphiql
+```bash
 
 ### 查询用户
 query {
