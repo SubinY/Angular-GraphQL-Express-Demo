@@ -68,6 +68,18 @@ query {
 #   }
 # }
 
+### 操作名称
+### 变量参数
+### {
+###   "username":"sdfsdf"
+### }
+# mutation CreateUserForTest($username:String!){
+#   createUser(username:$username){
+#     id,
+#     username
+#   }
+# }
+
 ### 更新用户
 # mutation{
 #   updateUser(id:"5b62b95e530ec2571455773b",username:"giscafer"){
