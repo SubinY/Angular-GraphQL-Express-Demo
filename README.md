@@ -1,6 +1,6 @@
 # Angular-GraphQL-Express-Demo
 
-Fork for make a quick share demo
+Fork for make a quick share demo, PPT online: http://yanshuo.io/assets/player/?deck=5b65b580ee920a003be3eeb6
 
 ## Dependencies
 Angular
